@@ -4,16 +4,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "build",
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "main.cpp"
+                "-g", "main.cpp", "-lwinmm", "-L~/usr/lib"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
         }
+       
     ]
 }
