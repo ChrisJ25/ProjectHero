@@ -33,5 +33,6 @@ int main() {
     PERSONALITY();
     cout<<"You wake up in your bed, and catch a glimpse of the large WELCOME TO VAULT 25! banner."<<endl;
     
+
     
 }
