@@ -23,6 +23,7 @@
         "type_traits": "cpp",
         "typeinfo": "cpp",
         "cmath": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "string": "cpp"
     }
 }

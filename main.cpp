@@ -2,6 +2,8 @@
 #include "includes/CharacterCreator.h"
 #include <Windows.h>
 #include <MMSystem.h>
+#include "includes/Factions.h"
+#include <map>
 
 
 using namespace std;
@@ -33,6 +35,14 @@ int main() {
     PERSONALITY();
     cout<<"You wake up in your bed, and catch a glimpse of the large WELCOME TO VAULT 25! banner."<<endl;
     
-
+    Faction TheDetroiters("The Detroiters");
+    TheDetroiters.Affinity = 50;
+    map <string, string> Detroiters_Members {
+        {"Leader", "Jacob Cryslus"},
+        {"", ""},
+        {"", ""},
+        {"Intelligence Officer", ""}
+    
+    };
     
 }
